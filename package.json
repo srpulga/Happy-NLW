@@ -4,7 +4,7 @@
   "description": "<h1 align=\"center\">\r     <img alt=\"Happy\" title=\"Happy\" src=\".github/logo.svg\" />\r </h1>",
   "main": "index.js",
   "scripts": {
-    "start": "src/server.js"
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.2",
+    "nodemon": "^2.0.5",
     "sqlite-async": "^1.1.1"
   }
 }
